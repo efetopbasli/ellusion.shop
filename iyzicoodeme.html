@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+    <link rel="icon" href="logooooo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #264675,  #aeb8bb, #67aec0);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .button:nth-child(1) {
+      animation: glow 3s infinite;
+    }
+    .button:nth-child(2) {
+      animation: glow 3s infinite;
+    }
+    .button:nth-child(3) {
+      animation: glow 3s infinite;
+    }
+    .button:nth-child(4) {
+      animation: glow 3s infinite;
+    }
+    .button:nth-child(5) {
+      animation: glow 3s infinite;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      background-color: #2e2f33;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      background-color: #FFFFFF;
+      border: 2px solid;
+      color: #000000;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .button:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 0px 0px 0px rgba(94, 138, 201, 0.6);
+      }
+      50% {
+        box-shadow: 0px 0px 20px rgba(94, 138, 201, 0.6);
+      }
+      100% {
+        box-shadow: 0px 0px 0px rgba(94, 138, 201, 0.6);
+      }
+    }
+
+    .price-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #ffffff;
+      padding: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      font-size: 14px;
+    }
+
+    /* Yeni stil eklemeleri */
+    .round-container {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      width: 120px;
+      height: 120px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .round-container img {
+      width: 80px;
+      height: 80px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.9);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+    /* */
+
+    @media (max-width: 768px) {
+      .button-container {
+        flex-direction: column;
+      }
+    }
+
+    .button:nth-child(1) {
+      border-color: #92f2ff;
+      background-color: #63212185;
+      color: #FFFFFF;
+    }
+
+    .button:nth-child(2) {
+      border-color: #92beff;
+      background-color: #63212185;
+      color: #ffffff;
+    }
+
+    .button:nth-child(3) {
+      border-color: #9299ff;
+      background-color: #63212185;
+      color: #ffffff;
+    }
+
+    .button:nth-child(4) {
+      border-color: #af92ff;
+      background-color: #5e192d5b;
+      color: #ffffff;
+    }
+    .button:nth-child(5) {
+      border-color: #906cf1;
+      background-color: #5e192d5b;
+      color: #ffffff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="round-container">
+      <img src="rectangle_22.png" alt="Görsel">
+    </div>
+    <div class="button-container">
+      <a class="button" href="https://iyzi.link/AJJC_A">
+        <i class="fas fa-paint-brush"></i> Logo Design <br> <br> $ 499,00
+      </a>
+      <a class="button" href="https://iyzi.link/AJJC-Q">
+        <i class="fas fa-star"></i> Exclusive <br> <br> $ 1.399,00
+      </a>
+      <a class="button" href="https://iyzi.link/AJJCcQ">
+        <i class="fas fa-crown"></i> Elite <br> <br> $ 2.799,00
+      </a>
+      <a class="button" href="https://iyzi.link/AJJC-g"> 
+        <i class="fas fa-gem"></i> Premium <br> <br> $ 3.399,00
+      </a>
+      <a class="button" href="https://iyzi.link/AJI-aQ">
+        <i class="fas fa-user-cog"></i> Customized <br> <br> $ 4.199,00
+      </a>
+    </div>
+  </div>
+</body>
+</html>
